@@ -1,0 +1,13 @@
+[
+    { "id":1,"nombre":"Norte Rupestre", "provincia":"Jujuy","ciudad":"Tilcara","precio": 3500,"imagen":"img/hotel01.jpg" },
+    { "id":2,"nombre":"Uwa Wasi hotel", "provincia":"Jujuy","ciudad":"Purmamarca","precio": 4600,"imagen":"img/hotel02.jpg" },
+    { "id":3,"nombre":"Luna hotel", "provincia":"Jujuy","ciudad":"Tilcara","precio": 3500,"imagen":"img/hotel03.jpg" },
+    { "id":4,"nombre":"Inti hotel", "provincia":"Jujuy","ciudad":"Humahuaca","precio": 5600,"imagen":"img/hotel01.jpg" },
+    { "id":5,"nombre":"Hotel Plaza Cafayate", "provincia":"Salta","ciudad":"Cafayate","precio": 3500,"imagen":"img/hotel04.jpg" },
+    { "id":6,"nombre":"Casa Santa Teresita", "provincia":"Salta","ciudad":"Cafayate","precio": 4600,"imagen":"img/hotel02.jpg" },
+    { "id":7,"nombre":"Hotel Mirador del Valle", "provincia":"Salta","ciudad":"Cachi","precio": 3500,"imagen":"img/hotel03.jpg" },
+    { "id":8,"nombre":"Alto del Valle Cafayate", "provincia":"Salta","ciudad":"Ciudad de Salta","precio": 4500,"imagen":"img/hotel04.jpg" }
+   
+ 
+]
+    

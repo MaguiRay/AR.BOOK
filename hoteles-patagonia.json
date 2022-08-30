@@ -1,0 +1,9 @@
+[
+    { "id":1,"nombre":"Hotel Plaza Bariloche", "provincia":"Rio Negro","ciudad":"Bariloche","precio": 5500,"imagen":"img/hotel01.jpg" },
+    { "id":2,"nombre":"Rotoui Apart Hotel", "provincia":"Rio Negro","ciudad":"San Martín de los Andes","precio": 8600,"imagen":"img/hotel02.jpg" },
+    { "id":3,"nombre":"Hosteria Patagonia", "provincia":"Santa Cruz","ciudad":"El calafate","precio": 7300,"imagen":"img/hotel03.jpg" },
+    { "id":4,"nombre":"Calafate Parque Hotel", "provincia":"Santa Cruz","ciudad":"El calafate","precio": 9600,"imagen":"img/hotel01.jpg"}
+   
+   
+]
+   

@@ -1,0 +1,11 @@
+
+[
+    { "id":1,"nombre":"Corrientes Plaza Hotel", "provincia":"Corrientes","ciudad":"Corrientes","precio": 2500,"imagen":"img/hotel01.jpg" },
+    { "id":2,"nombre":"Hotel Guamini Mision", "provincia":"Misiones","ciudad":"Iguazu","precio": 6600,"imagen":"img/hotel02.jpg" },
+    { "id":3,"nombre":"Iguazu Jungle Lodge", "provincia":"Misiones","ciudad":"Iguazu","precio": 8700,"imagen":"img/hotel03.jpg" },
+    { "id":4,"nombre":"Altos de la Costa", "provincia":"Entre Rios","ciudad":"Gualeguaychu","precio": 9600,"imagen":"img/hotel01.jpg" },
+    { "id":5,"nombre":"Hotel y Spa Costaneras", "provincia":"Entre Rios","ciudad":"Colon","precio": 10700,"imagen":"img/hotel01.jpg" },
+    { "id":6,"nombre":"Terrazas de Colón", "provincia":"Entre Rios","ciudad":"Colón","precio": 8600,"imagen":"img/hotel02.jpg" }
+   
+]
+    
