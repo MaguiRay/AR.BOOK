@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hoteles - Ar.book</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel='stylesheet' href='css/index.css'>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+       
+
+  </head>
+  <body>
+    <header class=" bg-color-green text-white d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom">
+        <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-decoration-none">
+          <img class="img-margin" src="img/logo-Arbook.png" height="70" alt="logotipo Arbook">
+        </a>
+
+        <ul id="mainMenuIndex" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"></ul>
+
+        <div class="col-md-3 text-end"></div>
+    </header>
+                    <div class="p-5 mb-12 bg-light rounded-3">
+                        <div class="container"> 
+                            
+                            <section class="row justify-content-lg-start">
+                                <h1 id="tituloRegistro"></h1>
+                                <div id="parrafoPrincipal"></div>       
+                            </section>
+
+                        </div>    
+                    </div>
+
+                <section  class="bg-color-lg-blue">
+                    <div class="container"> 
+                        <div class="row mb-2 ">
+                            <div class="col-sm-4 bg-color-grey form-margin">                      
+     
+                                <form id="formularioRegistroHotel" class="form-margin"> 
+                                        <div class="col-md-8">    
+                                        <label class="form-label">Nombre de hotel</label>
+                                        <input id="nombreHotel" type="text" class="form-control" placeholder="ingresa el nombre del hotel">
+                                        </div></br>
+                                        <div class="col-md-8">
+                                            <label  class="form-label">Provincia</label>
+                                            <input id="provincia" type="text" class="form-control" placeholder="ingresa la provincia">
+                                            
+                                        </div></br>
+                                        <div class="col-md-8">
+                                            <label class="form-label">Ciudad</label>
+                                            <input id="ciudad" type="text" class="form-control" placeholder="ingresa la ciudad">
+                                            
+                                        </div></br>
+                                        <div class="col-md-8">
+                                            <label class="form-label">Precio</label>
+                                            <input id="precioHotel" type="number" class="form-control" placeholder="ingresa el precio">
+                                            
+                                        </div></br>
+                                        
+                                        <div class="d-grid gap-2 col-6 mx-auto">
+                                        <button id="btnRegistro" class="btn bg-color-green  rounded-pill" type="submit">Registrar hotel</button>
+                                        </div>
+                                </form>
+
+                            </div>
+                            <div class="col-sm-4 bg-color-grey form-margin">                      
+                                <table class="table" id="tablaHoteles">
+                                    <thead>
+                                      <tr>
+                                     
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Provincia</th>
+                                        <th scope="col">Ciudad</th>
+                                        <th scope="col">Precio</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody class="bodytablaHoteles">
+                                      
+                                    </tbody>
+                                  </table>
+                               
+                            </div>    
+                        </div>
+                    </div>      
+                </section>
+
+
+                <div class="container">
+                    <footer class="py-5">
+                      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                        <p>© 2022 AR.book todos los derechos reservados</p>
+                        <ul class="list-unstyled d-flex">
+                          <li class="ms-3"><a class="link-dark" href="#"><i class="bi-instagram icon-size" ></i></a></li>
+                          <li class="ms-3"><a class="link-dark" href="#"><i class="bi-facebook icon-size" ></i></a></li> 
+                        </ul>
+                      </div>
+                    </footer>
+                  </div>
+
+
+
+
+
+   
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/dom-registro.js"></script>
+  </body>
+</html>

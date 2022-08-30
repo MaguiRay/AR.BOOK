@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ar.book</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel='stylesheet' href='css/index.css'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    </head>
+  
+    <body>
+                <header class=" bg-color-green text-white d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom">
+                    <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-decoration-none">
+                      <img class="img-margin" src="img/logo-Arbook.png" height="70" alt="logotipo Arbook">
+                    </a>
+
+                    <ul id="mainMenuIndex" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"></ul>
+
+                    <div class="col-md-3 text-end">
+                      <button id="registroAlojamiento" type="button" class="btn btn-outline-light me-2">Registra tu alojamiento</button>
+                    </div>
+                </header>
+       
+                    <div class="p-5 mb-12 bg-light rounded-3">    
+                      <div  class="container">
+
+                        <section class="row flex-lg-row-reverse align-items-center g-5">
+                          <div class="col-10 col-sm-8 col-lg-6">
+                            <img src="img/chica-hotel.png" class="d-block mx-lg-auto img-fluid" alt="chica en el hotel" width="600" height="400" loading="lazy">
+                          </div>     
+                          <div class="col-lg-6">      
+                                  <h1 id="tituloPrincipal"></h1>
+                                  <div id="parrafoPrincipal"></div>
+                                  
+                                    <form id="formularioBuscar" class="row g-3 btn-margin">
+                                        <div class="col-md-4">
+                                          <label  class="form-label">Región</label>
+                                          <select id="region" class="form-select"></select>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <label  class="form-label">Provincia</label>
+                                          <select id="provincia" class="form-select"></select>
+                                        </div>
+
+                                          <div class="col-md-4">
+                                            <button id="btnBuscar" class="btn bg-color-green  rounded-pill btn-margin" type="submit">Buscar</button>
+                                          </div> 
+                                    </form>
+                        </div>
+                              
+                        
+                        </section>
+                        </div>    
+                    </div>
+
+
+                    <section  class="bg-color-lg-blue">
+                      <div class="container"> 
+                        <h5 class="title-main">Recomendaciones de Hoteles</h5>
+                            <div class="row justify-content-md-center">
+                                <div class="col col-lg-4">
+                                    <div class="card cards-size">
+                                      <img src="img/norte.jpg" class="card-img-top" alt="Norte Argentino">
+                                      <div class="card-body">
+                                        <h5 class="card-title">NORTE</h5>
+                                        <p class="card-text">Entre las montañas y los valles áridos o subtropicales el Norte invita a sumergirse en la historia, a descubrir el arte regional y a lanzarse en la aventura.</p>
+                                        <button id="btnRecomendadosNorte" class="btn bg-color-green rounded-pill">Ver hoteles</button>
+                                      </div>
+                                    </div>
+                               </div>
+                                  <div class="col col-lg-4">
+                                    <div class="card cards-size">
+                                      <img src="img/litoral.jpg" class="card-img-top" alt="Litoral Argentino">
+                                        <div class="card-body">
+                                          <h5 class="card-title">LITORAL</h5>
+                                          <p class="card-text">Es la región de los grandes ríos, del trópico húmedo, de la tierra roja y de la selva virgen cubierta de árboles gigantes, con flora y fauna extraordinarias.</p>
+                                          <button id="btnRecomendadosLitoral" class="btn bg-color-green  rounded-pill" type="submit">Ver hoteles</button>
+                                        </div>
+                                      </div>
+                                  </div>
+                              
+                            
+                                <div class="col col-lg-4">
+                                    <div class="card cards-size">
+                                      <img src="img/patagonia.jpg" class="card-img-top" alt="Patagonia Argentina">
+                                        <div class="card-body">
+                                        <h5 class="card-title">PATAGONIA</h5>
+                                        <p class="card-text">La Cordillera de los Andes exhibe su grandeza en las provincias patagónicas. Bosques milenarios y silenciosos con especies vegetales autóctonas se extienden a orillas de los espejos de agua.</p>
+                                        <button id="btnRecomendadosPatagonia" class="btn bg-color-green  rounded-pill" type="submit">Ver hoteles</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+     
+                        </div>
+                       
+                            </div>
+                          
+                          </div>    
+                    </section>
+                    <section>
+                      <div class="container"> 
+                        <h2 id="txtRecomendados"></h2>     
+                        <div class="row row-cols-2" id="recomendados">
+                          
+                        </div>
+                      </div> 
+                    </section>
+                 
+                    <div class="container">
+                      <footer class="py-5">
+                        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                          <p>© 2022 AR.book todos los derechos reservados</p>
+                          <ul class="list-unstyled d-flex">
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="bi-instagram icon-size" ></i></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i class="bi-facebook icon-size" ></i></a></li> 
+                          </ul>
+                        </div>
+                      </footer>
+                    </div>
+                    
+
+                    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+                    <script src="js/main.js"></script>
+                    <script src="js/dom.js"></script>
+  
+
+
+
+  </body>
+</html>
